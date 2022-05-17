@@ -10,6 +10,7 @@ rosdep update
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin_make
+echo "if error occured about catkin, Please Reboot"
 sudo apt install python3-catkin-tools -y
 rm -r ~/catkin_ws/devel
 rm -r ~/catkin_ws/build
