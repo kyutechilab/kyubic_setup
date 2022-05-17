@@ -4,7 +4,7 @@ sudo apt update
 sudo apt install ros-noetic-desktop-full -y 
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 . ~/.bashrc
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
+sudo apt install catkin python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
 sudo rosdep init 
 rosdep update
 mkdir -p ~/catkin_ws/src
