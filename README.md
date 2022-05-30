@@ -4,3 +4,7 @@
 - 日本語入力.IDE.RemotedesktopAppなどのユーティリティが主
 # setup02.sh
 - ros-noetic-desktop-fullのinstallとcatkin buildができるようになるまでのシェル
+
+---
+
+# jetson_setup.sh
