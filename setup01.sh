@@ -14,7 +14,7 @@ sudo im-config -n fcitx
 echo  "please reboot and setting fcitx"
 sudo apt install -y git
 sudo apt-get install -y chrome-gnome-shell
-sudo apt install gnome-shell-extensions
+sudo apt install -y gnome-shell-extensions
 sudo apt install -y gnome-shell-extension-prefs
 sudo apt install -y gnome-shell-extension-system-monitor
 sudo snap install -y remmina
