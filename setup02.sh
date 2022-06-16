@@ -13,3 +13,4 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 echo "if error occured about catkin, Please Reboot"
 catkin build
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
