@@ -4,14 +4,12 @@ sudo apt update
 sudo apt install ros-noetic-desktop-full -y 
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 . ~/.bashrc
-sudo apt install catkin python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential -y
+sudo apt install -y catkin python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo apt install -y python3-rosdep
+sudo apt install -y python3-catkin-tools 
 sudo rosdep init 
 rosdep update
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
-catkin_make
 echo "if error occured about catkin, Please Reboot"
-sudo apt install python3-catkin-tools -y
-rm -r ~/catkin_ws/devel
-rm -r ~/catkin_ws/build
 catkin build
