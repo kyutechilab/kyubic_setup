@@ -11,7 +11,7 @@ sudo rosdep init
 rosdep update
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
-echo "if error occured about catkin, Please Reboot"
 catkin build
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+echo -e "\e[31m Please Reboot and catkin build again \e[m"
