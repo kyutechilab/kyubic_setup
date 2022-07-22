@@ -14,6 +14,8 @@ sudo im-config -n fcitx
 echo  "please reboot and setting fcitx"
 sudo apt install -y git
 sudo apt install -y gtkterm
+sudo apt install -y openssh-client
+sudo apt install -y openssh-server
 sudo apt-get install -y chrome-gnome-shell
 sudo apt install -y gnome-shell-extensions
 sudo apt install -y gnome-shell-extension-prefs
